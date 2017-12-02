@@ -45,7 +45,50 @@ p.date {
   text-align: center;
   font-size: 1.5em;
 }
+h2{
+  padding-top: 0;
+  text-align: center;
+}
+p.body{
+  padding-top: 0;
+  text-align: center;
+}
+h3{
+  padding-top: 0;
+  text-align: center;
+}
 
+p#nameLabel {
+  width: 95em;
+  text-align: center;
+}
+
+
+input#comment_name {
+  width: 30em;
+  text-align: center;
+  height: 30px;
+}
+
+p#commentLabel {
+  width: 70em;
+  text-align: center;
+}
+
+textarea#comment_body {
+  width: 50em;
+  height: 60px;
+}
+
+#create {
+  text-align: center;
+  padding-top: 0;
+}
+
+p#commentLabel {
+  width: 95em;
+  text-align: center;
+}
 
 /*body {
   padding-left: 200px;
@@ -102,10 +145,7 @@ p.date {
   text-align: center;
 }
 
-#create {
-  text-align: center;
-  padding-top: 0;
-}
+
 
 p#nameLabel {
   width: 70em;
@@ -118,10 +158,7 @@ input#comment_name {
   height: 30px;
 }
 
-p#commentLabel {
-  width: 70em;
-  text-align: center;
-}
+
 
 textarea#comment_body {
   width: 50em;
