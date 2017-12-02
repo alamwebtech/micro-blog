@@ -36,6 +36,15 @@ h2.title{
   text-align: center;
 }
 
+h2{
+  padding-top: 0;
+  text-align: center;
+}
+h3{
+  padding-top: 0;
+  text-align: center;
+}
+
 h1.title{
   padding-top: 5%;
   text-align: center;
@@ -66,6 +75,10 @@ p.titleSubmit {
   text-align: center;
   color: #33acb7;
 }
+p.body{
+  text-align: center;
+
+}
 
 input#post_title {
   width: 30em;
@@ -75,7 +88,20 @@ input#post_title {
 
 textarea#post_body {
   width: 50em;
-  height: 150px;
+  height: 150;
+}
+
+p#nameLabel {
+  width: 95em;
+  text-align: center;
+}
+p#commentLabel {
+  width: 95em;
+  text-align: center;
+}
+#create {
+  text-align: center;
+  padding-top: 0;
 }
 
 /*body {
@@ -133,15 +159,9 @@ p.date {
   text-align: center;
 }
 
-#create {
-  text-align: center;
-  padding-top: 0;
-}
 
-p#nameLabel {
-  width: 70em;
-  text-align: center;
-}
+
+
 
 input#comment_name {
   width: 30em;
@@ -149,10 +169,7 @@ input#comment_name {
   height: 30px;
 }
 
-p#commentLabel {
-  width: 70em;
-  text-align: center;
-}
+
 
 textarea#comment_body {
   width: 50em;
