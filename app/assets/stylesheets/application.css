@@ -15,14 +15,32 @@
  *= require_self
  */
 
-/*html, body {
+html, body {
   font-family: 'Raleway', sans-serif;
   background-color: #efefef;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-}*/
+}
+
+#post{
+  padding-top: 5%;
+  text-align: center;
+  font-size: 3em;
+}
+
+
+h2.title{
+  padding-top: 0;
+  text-align: center;
+}
+
+h1.title{
+  padding-top: 5%;
+  text-align: center;
+}
+
 
 /*body {
   padding-left: 200px;
@@ -69,10 +87,7 @@ h1 {
   padding-top: 6%;
 }
 
-h2 {
-  padding-top: 3%;
-  text-align: center;
-}
+
 
 h3 {
   text-align: center;
