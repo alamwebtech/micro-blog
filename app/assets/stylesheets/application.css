@@ -97,6 +97,7 @@ p#nameLabel {
   text-align: center;
 }
 p#commentLabel {
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
 #create {
