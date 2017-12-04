@@ -15,7 +15,8 @@
  *= require_self
  */
 
-html, body {
+
+body {
   font-family: 'Helvetica', sans-serif;
   background-color: #efefef;
 }
@@ -104,6 +105,10 @@ p#commentLabel {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   padding-top: 0;
+}
+
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*body {
