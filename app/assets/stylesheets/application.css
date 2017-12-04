@@ -101,6 +101,7 @@ p#commentLabel {
   text-align: center;
 }
 #create {
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   padding-top: 0;
 }
