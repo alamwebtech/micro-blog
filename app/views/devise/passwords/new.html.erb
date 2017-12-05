@@ -1,4 +1,6 @@
+
 <%= bootstrap_devise_error_messages! %>
+<div class="emailpanel">
 <div class="panel panel-default devise-bs">
   <div class="panel-heading">
     <h4><%= t('.forgot_your_password', default: 'Forgot your password?') %></h4>
@@ -13,5 +15,6 @@
       <%= f.submit t('.send_me_reset_password_instructions', default: 'Send me reset password instructions'), class: 'btn btn-primary' %>
     <% end %>
   </div>
+</div>
 </div>
 <%= render 'devise/shared/links' %>
