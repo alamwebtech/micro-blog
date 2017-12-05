@@ -95,6 +95,7 @@ textarea#post_body {
 
 p#nameLabel {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: medium;
   text-align: center;
 }
 p#commentLabel {
