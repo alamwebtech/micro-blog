@@ -116,6 +116,9 @@ a {
   font-size: x-large;
 }
 
+
+/* changes from Ricardo */
+
 a:hover {
   color: grey;
   text-decoration: none;
