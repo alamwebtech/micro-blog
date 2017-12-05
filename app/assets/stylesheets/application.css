@@ -19,7 +19,11 @@
 body {
   background-image: url('../assets/blogpicture.jpg');
   background-size: cover;
+  font-weight: bolder;
+  font-size: 25px;
+  font-style: normal;
   font-family: 'Helvetica', sans-serif;
+
   /*background-color: #efefef;*/
 }
 
@@ -126,6 +130,7 @@ a:hover {
 
 .navbar-brand {
   font-size: x-large;
+  color: blue;
 }
 
 .signinemail {
@@ -154,7 +159,7 @@ a:hover {
 
 .bottomlinks {
   text-align: center;
-  
+
 }
 
 /*body {
