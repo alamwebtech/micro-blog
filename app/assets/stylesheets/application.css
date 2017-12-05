@@ -109,7 +109,11 @@ p#commentLabel {
 
 a {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: medium;
+  font-size: x-large;
+}
+ 
+.navbar-brand {
+  font-size: x-large;
 }
 
 /*body {
