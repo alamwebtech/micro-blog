@@ -116,6 +116,11 @@ a {
   font-size: x-large;
 }
 
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
 .navbar-brand {
   font-size: x-large;
 }
