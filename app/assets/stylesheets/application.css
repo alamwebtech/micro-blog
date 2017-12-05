@@ -17,8 +17,10 @@
 
 
 body {
+  background-image: url('../assets/blogpicture.jpg');
+  background-size: cover;
   font-family: 'Helvetica', sans-serif;
-  background-color: #efefef;
+  /*background-color: #efefef;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,7 +115,7 @@ a {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: x-large;
 }
- 
+
 .navbar-brand {
   font-size: x-large;
 }
