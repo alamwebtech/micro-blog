@@ -142,6 +142,15 @@ a:hover {
   padding-right: 550px;
 }
 
+.panel {
+  background-color: grey;
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+
 /*body {
   padding-left: 200px;
   text-align: center;
