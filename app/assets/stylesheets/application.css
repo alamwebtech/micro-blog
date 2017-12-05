@@ -15,12 +15,14 @@
  *= require_self
  */
 
-html, body {
-  font-family: 'Raleway', sans-serif;
+
+body {
+  font-family: 'Helvetica', sans-serif;
   background-color: #efefef;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 500;
 }
 
@@ -92,16 +94,28 @@ textarea#post_body {
 }
 
 p#nameLabel {
-  width: 95em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: medium;
   text-align: center;
 }
 p#commentLabel {
-  width: 95em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: medium;
   text-align: center;
 }
 #create {
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   padding-top: 0;
+}
+
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: x-large;
+}
+ 
+.navbar-brand {
+  font-size: x-large;
 }
 
 /*body {
